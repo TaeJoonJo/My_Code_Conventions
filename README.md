@@ -34,7 +34,7 @@
  *	각 단어의 첫 글자를 대문자를 사용하며, 기능을 최대한 나타내도록 표현합니다.
 >   +	`Point* GetSessionStatus( … );`
  *	*Get*, *Set*이름의 함수를 사용하며 리턴값이 bool일경우에는 *Is*를 붙입니다.
- *	*static* 함수의 경우, 언더바로 시작합니다.
+ *	**static** 함수의 경우, 언더바로 시작합니다.
 >   + `static const bool _SetNetwork();`
 
  #### 7.	변수
