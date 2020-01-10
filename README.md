@@ -2,16 +2,17 @@
 
 ### - Naming
 
- 1.	파일명은 각 단어의 첫 글자를 대문자를 사용합니다
+ 1.	파일명 
+>   * 각 단어의 첫 글자를 대문자를 사용합니다
 >   *	파일은 *“.h”* 와 *“.cpp”*를 한쌍으로 이루는 것을 기본으로 합니다.
 >   *	인터페이스만을 구현한 파일이라면 *“.h”*만을 사용합니다.
 >   *	Template 관련 파일이라면 *“.h”*와 *“.hpp”*로 분리하는 것으로 합니다.
 
  2.	#define, const, constexpr
 >   *	대문자와 밑줄만을 사용합니다.
->     +	#define MAX_USER 10
->     +	const int WAIT_TIME = 100;
->     +	constexpr int MAX_THREAD = 16;
+>    +	#define MAX_USER 10
+>    +	const int WAIT_TIME = 100;
+>    +	constexpr int MAX_THREAD = 16;
 
  3.	typedef, using
 >   *	밑줄없이 대문자만을 사용합니다.
@@ -30,7 +31,7 @@
 >   +	{ LOGIN_, … } 
 
  6.	함수
-> *	각 단어의 첫 글자를 **대문자**를 사용하며, 기능을 최대한 나타내도록 표현합니다.
+> *	각 단어의 첫 글자를 대문자를 사용하며, 기능을 최대한 나타내도록 표현합니다.
 >   +	Point* GetSessionStatus( … );
 > *	*Get*, *Set*이름의 함수를 사용하며 리턴값이 bool일경우에는 *Is*를 붙입니다.
 > *	*static* 함수의 경우, 언더바로 시작합니다.
