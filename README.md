@@ -14,7 +14,7 @@
 >   +	`const int WAIT_TIME = 100;`
 >   +	`constexpr int MAX_THREAD = 16;`
 
- ####3.	**typedef, using**
+ #### 3.	**typedef, using**
  *	밑줄없이 대문자만을 사용합니다.
 >   +	`Typedef std::function<void(void*)> THREADFUNC;`
 >   +	`Using SESSIONPOOL = std::unordered_map<void*, MAX_SESSION>;`
