@@ -10,14 +10,14 @@
 
  2.	#define, const, constexpr
 > *	대문자와 밑줄만을 사용합니다.
->  +	#define MAX_USER 10
->  +	const int WAIT_TIME = 100;
->  +	constexpr int MAX_THREAD = 16;
+>   +	#define MAX_USER 10
+>   +	const int WAIT_TIME = 100;
+>   +	constexpr int MAX_THREAD = 16;
 
  3.	typedef, using
 >   *	밑줄없이 대문자만을 사용합니다.
->    +	Typedef std::function<void(void*)> THREADFUNC ;
->    +	Using SESSIONPOOL = std::unordered_map<void*, MAX_SESSION>;
+>     +	Typedef std::function<void(void*)> THREADFUNC ;
+>     +	Using SESSIONPOOL = std::unordered_map<void*, MAX_SESSION>;
 
  4.	namespace
 >   *	시작을 대문자로 단어별 첫 글자를 대문자를 사용합니다.
