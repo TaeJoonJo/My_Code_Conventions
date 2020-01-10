@@ -15,13 +15,13 @@
 >   +	constexpr int MAX_THREAD = 16;
 
  3.	typedef, using
->  *	밑줄없이 대문자만을 사용합니다.
->    +	Typedef std::function<void(void*)> THREADFUNC ;
->    +	Using SESSIONPOOL = std::unordered_map<void*, MAX_SESSION>;
+> *	밑줄없이 대문자만을 사용합니다.
+>   +	Typedef std::function<void(void*)> THREADFUNC ;
+>   +	Using SESSIONPOOL = std::unordered_map<void*, MAX_SESSION>;
 
  4.	namespace
->   *	시작을 대문자로 단어별 첫 글자를 대문자를 사용합니다.
->    +	namespace Network { … }
+> *	시작을 대문자로 단어별 첫 글자를 대문자를 사용합니다.
+>   +	namespace Network { … }
 
  5.	enum, enum class
 > *	앞에 대문자 ***E***로 시작하며 단어 별로 첫 문자를 대문자로 사용합니다.
