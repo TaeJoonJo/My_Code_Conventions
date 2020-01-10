@@ -47,7 +47,7 @@
  *	**지역변수**의 경우 맨앞 단어를 소문자로 사용합니다.
 >   +	`Point* GetSessionStatus(CSession* psession) {bint sessionID = psession->GetID(); … }`
  *	**static** 변수일 경우 앞에 언더바를 붙여 사용합니다.
->   +	'static unsigned Int _SessionID;'
+>   +	`static unsigned Int _SessionID;`
 
  #### 8.	class, struct
  *	**class** 앞에는 대문자 ***C***를 붙이며, 각 단어의 첫 글자를 대문자로 사용합니다.
