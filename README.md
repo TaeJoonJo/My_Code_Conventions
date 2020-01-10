@@ -10,9 +10,9 @@
 
  2.	#define, const, constexpr
 > *	대문자와 밑줄만을 사용합니다.
->   +	#define MAX_USER 10
->   +	const int WAIT_TIME = 100;
->   +	constexpr int MAX_THREAD = 16;
+>   +	<#define MAX_USER 10>
+>   +	<const int WAIT_TIME = 100;>
+>   +	<constexpr int MAX_THREAD = 16;>
 
  3.	typedef, using
 > *	밑줄없이 대문자만을 사용합니다.
