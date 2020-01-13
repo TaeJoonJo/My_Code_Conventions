@@ -231,7 +231,7 @@ CSource::CSource()
 ...
 ```
 
-#### inlclude
+#### include
 * include 순서는 아래의 순서를 따릅니다.
 ```c
 #include "표준라이브러리를 포함한 사용자 정의 헤더"
@@ -269,5 +269,19 @@ class CSession
    private 변수
   public:
    public 변수
+}
+```
+
+#### 조건문
+* 조건문을 작성할때 상수를 먼저오게 사용합니다.
+```c
+if( 0 < sessionNum) {
+  ...
+}
+```
+* !=보다 == 을 지향합니다.
+```c
+if( false == psession->IsRun() ) {
+  ...
 }
 ```
